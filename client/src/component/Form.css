@@ -1,0 +1,94 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  color: #4d4d4d;
+  background: white;
+}
+
+.form{
+  background: #bdc3c7;
+  border-radius: 5px;
+  width: 370px;
+  margin: 20px auto;
+  padding: 20px;
+  /* height: 600px; */
+}
+
+.form-body{
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form-body > *{
+  padding: 5px;
+}
+
+.form__label{
+  width: 40%;
+}
+
+/* .form_input{
+  width: 40%;
+  margin: 10px 15px 10px 0px;
+} */
+.form_input{
+  border-radius: 10px;
+}
+
+.footer{
+  text-align: center;
+}
+.contactNumber{
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  text-align: center;
+}
+
+#employee {
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+}
+
+#employee td,
+#employee th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+#employee tr:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+#employee th {
+  padding: 10px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+.operation {
+  text-align: center;
+}
+
+.button {
+  border: none;
+  outline: none;
+  font-size: 11px;
+  font-family: "Quicksand", sans-serif;
+  color: #f44336;
+  padding: 3px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #f44336;
+  background-color: transparent;
+}
+
+.button:active {
+  border: 1px solid blue;
+}
